@@ -18,21 +18,32 @@
     background: white;
 }
 
+.topcolumn{
+    border-left: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172, 0.3);
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+}
 .price{
     color: #5333ed;
     font-size: 30px;
-    font-weight: 700;
+    font-style: bold;
+    font-family: sans-serif;
+
 }
 
 .name{
-    color: darkgrey;
+    color: rgb(104, 104, 104);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
 }
 
 .currency{
-    color: darkgrey;
+    color:rgb(104, 104, 104);
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
@@ -40,29 +51,68 @@
     
 }
 
-table{
-    position: static;
-    z-index: 1;
-    left: 0%;
-    top: 10%;
-    transform: translate(0%, 0%);
-    width: 100%;
-    height: 500px;
-    border-collapse: separate;
-    border-spacing: 1px;
-    background: white;
-    text-align: center;
+.side_title{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    padding: 10px;
+    font-family: sans-serif;
+    width: 220px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 
-th,td{
-    padding: 12px 30px;
-}
+.button--ghost--gray{
+   
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-family: arial;
+    font-size: 12px;
+    border-radius: 10, 10, 10, 10;
+    overflow: hidden;
 
+
+}
 h1{
     position: static;
     text-align: center;
     top: 30%;
     bottom: 10%;
     z-index: 1;
+}
+
+table{
+    position: static;
+    margin-top: 20px;
+    z-index: 1;
+    left: 0%;
+    top: 10%;
+    transform: translate(0%, 0%);
+    width: fit-content;
+    height: 500px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: transparent;
+    text-align: center;
+
+    
+}
+
+td{
+    padding: 10px 20px;
+    color: rgb(104, 104, 104);
+    font-family: Arial;
+    font-weight: 100;
+    border-style: solid;
+    border-width: 1px;
+    border-left: transparent;
+    border-color: rgb(172, 172, 172, 0.3);
+    width: fit-content;
+}
+
+td{
+    width: 150px;
 }
