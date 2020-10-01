@@ -18,20 +18,11 @@
     background: white;
 }
 
-.topcolumn{
-    border-left: black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(172, 172, 172, 0.3);
-    border-top: transparent;
-    border-bottom: transparent;
-    border-right: transparent;
-}
 .price{
     color: #5333ed;
     font-size: 30px;
     font-style: bold;
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
 
@@ -40,6 +31,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .currency{
@@ -48,16 +40,17 @@
     font-size: 11px;
     font-weight: 600;
     margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
 .side_title{
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(104, 104, 104);
     font-weight: bold;
     padding: 10px;
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 220px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -80,7 +73,7 @@ h1{
     position: static;
     text-align: center;
     top: 30%;
-    bottom: 10%;
+    bottom: 20%;
     z-index: 1;
 }
 
@@ -104,15 +97,28 @@ table{
 td{
     padding: 10px 20px;
     color: rgb(104, 104, 104);
-    font-family: Arial;
-    font-weight: 100;
+    font-weight: 200;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-style: solid;
     border-width: 1px;
     border-left: transparent;
     border-color: rgb(172, 172, 172, 0.3);
-    width: fit-content;
+    width: 150px;
 }
 
-td{
-    width: 150px;
+
+th{
+    padding: 20px 0px;
+    border-left: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172, 0.3);
+    border-top: transparent;
+    border-bottom: transparent;
+
+
+}
+
+thead{
+    
 }
