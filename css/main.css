@@ -5,12 +5,9 @@
     
 }
 
-.table-sticky{
-
-
-}
 
 /* Classes */
+
 
 .starter{
     background: #FFFFFF;
@@ -133,13 +130,11 @@ td{
 
 th{
     padding: 20px 0px;
-    border-left: black;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(172, 172, 172, 0.3);
     border-top: transparent;
     position: sticky;
     top: 0;
-
 }
 
