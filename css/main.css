@@ -5,21 +5,33 @@
     overflow-x: hidden;
     
 }
+/* Classes */
+.pro{
+    background: #F4F7FE;
+}
+.Business1{
+    background: #FDFAF3;
 
-.filter{
-    position: static;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    opacity: .7;
-
-    background: white;
 }
 
-.price{
-    color: #5333ed;
+.priceS{
+    color: #5332ED;
+    font-size: 30px;
+    font-style: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.priceP{
+    color: #5332ED;
+    font-size: 30px;
+    font-style: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.priceB{
+    color: #FF961E;
     font-size: 30px;
     font-style: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -57,18 +69,27 @@
     
 }
 
-.button--ghost--gray{
-   
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    font-family: arial;
-    font-size: 12px;
-    border-radius: 10, 10, 10, 10;
-    overflow: hidden;
+.buy-button{
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #6E7076;
+}
 
+.buy-button a:hover {
+    color: black;
+}
+.button--ghost--gray{
+    margin: 10px 0px 0px;
+    padding: 4px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+  
+    text-decoration: none;
 
 }
+
+/* Table columns */
+
 h1{
     position: static;
     text-align: center;
@@ -88,7 +109,7 @@ table{
     height: 500px;
     border-collapse: collapse;
     border-spacing: 0;
-    background: transparent;
+    background: white;
     text-align: center;
 
     
@@ -102,6 +123,8 @@ td{
     border-style: solid;
     border-width: 1px;
     border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
     border-color: rgb(172, 172, 172, 0.3);
     width: 150px;
 }
@@ -114,11 +137,6 @@ th{
     border-width: 1px;
     border-color: rgb(172, 172, 172, 0.3);
     border-top: transparent;
-    border-bottom: transparent;
-
 
 }
 
-thead{
-    
-}
