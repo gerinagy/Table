@@ -2,6 +2,10 @@
 /* Classes */
 
 
+
+
+
+
 .starter{
     background: #FFFFFF;
 }
@@ -23,6 +27,7 @@
     color: #5332ED;
     font-size: 30px;
     font-style: bold;
+
 }
 
 .priceB{
@@ -124,8 +129,36 @@ th{
     border-width: 1px;
     border-color: rgb(172, 172, 172, 0.3);
     border-top: transparent;
+    border-left: transparent;
     position: sticky;
     top: 0;
     
 }
 
+@media only screen and (max-width: 400px) {
+    .side_title{
+        padding: 0px;
+        width: 80px;
+        margin-top: 5px 5px;
+        position: sticky;
+        left: 0;
+    }
+
+    th{
+        padding: 0px 0px;
+    }
+    
+    .starter{
+        background: #FFFFFF;
+        padding: 5px 0px 5px;
+    }
+    .pro{
+        background: #F4F7FE;
+        padding: 5px 0px 5px;
+    }
+    .Business1{
+        background: #FDFAF3;
+        padding: 5px 0px 5px;
+
+
+}
