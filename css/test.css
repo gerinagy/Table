@@ -146,8 +146,7 @@ th{
 /* Responsive */
 
 @media only screen and (max-width: 400px) {
-    overflow-x: auto;
-    white-space: nowrap;
+
 
     .res-tab{
         width: 100px;
