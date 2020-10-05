@@ -1,0 +1,196 @@
+.res-tab{
+    position: static;
+    margin: 30px 0px 0px;
+    z-index: 1;
+    width: fit-content;
+    min-width: 700px;
+    border-collapse: collapse;
+    background: white;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+.title {
+    position: static;
+    text-align: center;
+    top: 30%;
+    bottom: 20%;
+    z-index: 1;
+    font-size: 30px;
+    padding: 20px 0px 20px 80px;
+}
+
+.sides{
+    padding: 10px 100px 10px 0px;
+}
+
+td{
+    color: rgb(104, 104, 104);
+    border-color: rgb(172, 172, 172, 0.3);
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 0px 5px;
+    z-index: 2;
+}
+
+
+th{
+    border-color: rgb(172, 172, 172, 0.3);
+    border-width: 1px;
+    border-style: solid;
+    position: sticky;
+    top: 0;
+    padding: 10px 10px 80px;
+}
+
+
+
+
+.emptyblock{
+    border: none;
+    background: #FFFFFF;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+.starter{
+    background: #FFFFFF;
+    padding: 5px 2px 5px;
+}
+.pro{
+    background: #F4F7FE;
+    padding: 5px 2px 5px;
+}
+.Business1{
+    background: #FDFAF3;
+    padding: 5px 2px 5px;
+
+}
+
+.priceS{
+    color: #5332ED;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.priceP{
+    color: #5332ED;
+    font-size: 30px;
+    font-style: bold;
+
+}
+
+.priceB{
+    color: #FF961E;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.name{
+    color: rgb(104, 104, 104);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.currency{
+    color:rgb(104, 104, 104);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 0px;
+    
+}
+
+.side_title{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    padding: 10px;
+    width: 220px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.choosebutton{
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #6E7076;
+    margin: 10px 0px 0px;
+    padding: 4px 16px;
+    font-size: 12px;
+    
+}
+
+.side_title{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: sticky;
+    left: 0;
+    background: #FFFFFF;
+    z-index: 1;
+
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 400px) {
+    overflow-x: auto;
+    white-space: nowrap;
+
+    .res-tab{
+        width: 100px;
+    }
+    
+    .side_title{
+        padding: 0px;
+        width: 80px;
+        margin-top: 5px 5px;
+        position: sticky;
+        left: 0;
+    }
+
+    .sides{
+        padding: 10px 40px 10px 0px;
+    }
+
+    th{
+        padding: 0px 0px;
+    }
+
+    td{
+        padding: 0px 0px;
+    }
+    
+    .starter{
+        background: #FFFFFF;
+        padding: 5px 0px 5px;
+        width: fit-content;
+    }
+    .pro{
+        background: #F4F7FE;
+        padding: 5px 0px 5px;
+        width: fit-content;
+    }
+    .Business1{
+        background: #FDFAF3;
+        padding: 5px 0px 5px;
+        width: fit-content;
+    }
+
+    .res-tab{
+        width: 100px;
+    }
+
+}
