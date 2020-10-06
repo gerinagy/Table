@@ -31,7 +31,7 @@ td{
     border-color: rgb(172, 172, 172, 0.3);
     border-width: 1px;
     border-style: solid;
-    padding: 5px 0px 5px;
+    padding: 40px 50px 40px 50px;
     z-index: 2;
 }
 
@@ -42,7 +42,7 @@ th{
     border-style: solid;
     position: sticky;
     top: 0;
-    padding: 10px 10px 80px;
+    padding: 40px 50px 40px 50px;
 }
 
 
@@ -55,17 +55,17 @@ th{
     left: 0;
     z-index: 2;
 }
+
 .starter{
     background: #FFFFFF;
-    padding: 5px 2px 5px;
 }
+
 .pro{
     background: #F4F7FE;
-    padding: 5px 2px 5px;
 }
+
 .Business1{
     background: #FDFAF3;
-    padding: 5px 2px 5px;
 
 }
 
@@ -73,12 +73,14 @@ th{
     color: #5332ED;
     font-size: 30px;
     font-style: bold;
+    padding: 10px 0px 10px;
 }
 
 .priceP{
     color: #5332ED;
     font-size: 30px;
     font-style: bold;
+    padding: 10px 0px 10px;
 
 }
 
@@ -86,6 +88,7 @@ th{
     color: #FF961E;
     font-size: 30px;
     font-style: bold;
+    padding: 10px 0px 10px;
 }
 
 .name{
@@ -102,17 +105,6 @@ th{
     font-weight: 600;
     margin-top: 0px;
     
-}
-
-.side_title{
-    text-align: left;
-    font-size: 18px;
-    color: rgb(104, 104, 104);
-    font-weight: bold;
-    padding: 10px;
-    width: 220px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .choosebutton{
@@ -145,7 +137,7 @@ th{
 
 /* Responsive */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
 
     .res-tab{
@@ -155,21 +147,22 @@ th{
     .side_title{
         padding: 0px;
         width: 80px;
-        margin-top: 5px 5px;
         position: sticky;
         left: 0;
     }
 
     .sides{
         padding: 10px 40px 10px 0px;
+        margin: 0px 10px 0px 10px;
     }
 
     th{
-        padding: 0px 0px;
+        position: sticky;
+        top: 0;
     }
 
     td{
-        padding: 0px 0px;
+        padding: 20px 10px 20px 10px;
     }
     
     .starter{
