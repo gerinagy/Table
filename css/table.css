@@ -107,19 +107,6 @@ th{
     
 }
 
-.choosebutton{
-    margin: 5px 0px;
-    text-decoration: none;
-    color: #6E7076;
-    margin: 10px 0px 0px;
-    padding: 4px 16px;
-    font-size: 12px;
-}
-
-.choosebutton:hover{
-    color: white;
-}
-
 .side_title{
     text-align: left;
     font-size: 18px;
@@ -169,13 +156,13 @@ button:hover{
     
     .side_title{
         padding: 0px;
-        width: 80px;
+        width: 70px;
         position: sticky;
         left: 0;
     }
 
     .sides{
-        padding: 10px 40px 10px 0px;
+        padding: 10px 20px 10px 0px;
         margin: 0px 10px 0px 10px;
     }
 
