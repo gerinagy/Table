@@ -42,7 +42,7 @@ th{
     border-style: solid;
     position: sticky;
     top: 0;
-    padding: 40px 50px 40px 50px;
+    padding: 20px 50px 20px 50px;
 }
 
 
@@ -145,7 +145,7 @@ button{
     height: 25px;
     border: 1px solid #E2EAF8;
     border-radius: 10px;
-    margin: 5px 0px 5px 0px;
+    margin: 15px 0px 0px 0px;
     font-size: 12px;
     overflow: hidden;
 }
@@ -208,4 +208,7 @@ button:hover{
         width: 100px;
     }
 
+    button{
+        margin: 5px 0px 5px;
+    }
 }
